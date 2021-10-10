@@ -1,10 +1,10 @@
 print("Введіть координати вектора a (x;y;z):")
-a1=float(input("a1 = ")); 
-a2=float(input("a2 = ")); 
+a1=float(input("a1 = "))
+a2=float(input("a2 = "))
 a3=float(input("a3 = "))
 print("Введіть координати вектора b (x;y;z):")
-b1=float(input("b1 = ")); 
-b2=float(input("b2 = ")); 
+b1=float(input("b1 = "))
+b2=float(input("b2 = "))
 b3=float(input("b3 = "))
 if (b1!=0)and(b2!=0)and(b3!=0):
     if (a1/b1==a2/b2)and(a2/b2==a3/b3):
